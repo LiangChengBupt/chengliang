@@ -6,7 +6,6 @@ A static academic homepage adapted from [Jon Barron’s website](https://github.
 - `stylesheet.css`: original template typography and link styling.
 - `site.css`: page layout and responsive styles.
 - `assets/portrait.jpg`: profile photo.
-- `data/Cheng_Liang_CV.pdf`: Chinese CV.
 
 ## Preview
 
