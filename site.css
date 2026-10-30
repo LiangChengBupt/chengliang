@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: #111; background: #fff; line-height: 1.5; }
+main { max-width: 800px; margin: 0 auto; padding: 28px 20px 22px; }
+a:focus-visible { outline: 2px solid #1772d0; outline-offset: 4px; }
+.profile { display: flex; align-items: center; gap: 36px; padding: 0 0 22px; }
+.bio { flex: 1; }
+h1 { font-size: 32px; font-weight: 400; text-align: center; margin: 12px 0 20px; line-height: 1.2; }
+h1 span { font-size: 27px; margin-left: 8px; font-weight: 400; }
+p { margin: 12px 0; }
+.contact { text-align: center; line-height: 1.9; }
+.separator { color: #555; padding: 0 5px; }
+.portrait-link { flex: 0 0 220px; }
+.portrait { display: block; width: 220px; height: 260px; object-fit: cover; object-position: center 25%; border-radius: 50%; }
+.research { padding: 10px 0 14px; }
+h2 { font-size: 22px; line-height: 1.3; }
+.section-intro { padding: 18px 0 10px; }
+.section-intro p { margin: 8px 0; color: #555; }
+.paper { padding: 19px 20px; margin: 0 -1px 4px; }
+.paper.featured { background: #ffffd0; }
+h3 { margin: 0 0 3px; font-size: 14px; line-height: 1.5; font-weight: 700; }
+.authors, .venue, .resources { margin: 1px 0; }
+.description { margin: 10px 0 0; }
+footer { text-align: right; padding: 38px 0 8px; color: #666; font-size: 12px; line-height: 1.9; }
+footer a { font-size: 12px; }
+@media (max-width: 600px) {
+ main { padding: 20px 20px; }
+ .profile { flex-direction: column-reverse; gap: 12px; }
+ .portrait-link { flex: none; }
+ .portrait { width: 170px; height: 200px; }
+ h1 { font-size: 30px; margin: 8px 0 18px; }
+ h1 span { font-size: 25px; }
+ .paper { padding: 18px 14px; }
+ .resources { line-height: 1.9; }
+ footer { text-align: center; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

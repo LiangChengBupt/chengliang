@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cheng Liang | 梁骋</title>
+<meta name="description" content="Cheng Liang, PhD student at Shanghai Jiao Tong University. Research on looped Transformers, efficient pretraining, and reasoning in foundation models.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="stylesheet.css"><link rel="stylesheet" href="site.css">
+</head>
+<body><main id="top">
+<header class="profile">
+<div class="bio"><h1>Cheng Liang <span lang="zh-CN">梁骋</span></h1>
+<p>I am a PhD student in Artificial Intelligence at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>. I am also a foundation model pretraining research intern at <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>.</p>
+<p>I received my bachelor's degree in Computer Science and Technology from <a href="https://www.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a> in 2025. Previously, I interned at the <a href="https://air.tsinghua.edu.cn/">Institute for AI Industry Research (AIR), Tsinghua University</a>.</p>
+<p class="contact"><a href="mailto:llccheng1026@126.com">Email</a> <span class="separator">/</span> <a href="data/Cheng_Liang_CV.pdf">CV</a> <span class="separator">/</span> <a href="https://scholar.google.com/citations?user=-zHX1uIAAAAJ">Google Scholar</a> <span class="separator">/</span> <a href="https://github.com/LiangChengBupt">GitHub</a></p>
+</div><a class="portrait-link" href="assets/portrait.png" aria-label="View portrait of Cheng Liang"><img class="portrait" src="assets/portrait.png" alt="Cheng Liang" width="220" height="260"></a>
+</header>
+<section class="research" aria-labelledby="research"><h2 id="research">Research</h2>
+<p>I am interested in <strong>efficient pretraining and reasoning in foundation models</strong>, with a particular focus on <strong>looped Transformers</strong>, recurrent state modeling, and architectures that decouple knowledge from reasoning. My research also spans medical vision–language models, reinforcement learning, and multimodal agents.</p>
+</section>
+<section aria-labelledby="ongoing"><div class="section-intro"><h2 id="ongoing">Ongoing Research</h2><p>Current work on looped Transformers and interactive clinical agents. * denotes equal contribution.</p></div>
+<article class="paper featured">
+<h3>UpLoop: Training Looped Transformers via Upcycling at No Extra Pretraining Compute.</h3><p class="authors"><strong>Cheng Liang*</strong>, T. Zhang*, et al.</p><p class="venue"><em>Under submission</em></p>
+<p class="description">Training looped Transformers through progressive depth growth and layer copying, with parameter count, training tokens, and training FLOPs matched to dense baselines.</p></article><article class="paper featured">
+<h3><a href="https://arxiv.org/abs/2610.28489">Asymmetric Looped Transformers: Fixed Global Representations for an Iterative Decoder.</a></h3><p class="authors"><strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>Under submission</em></p>
+<p class="resources"><a href="https://arxiv.org/abs/2610.28489">Paper</a> <span class="separator">/</span> <a href="https://liangchengbupt.github.io/AsymLoop-Project/">Project</a></p><p class="description">A causal encoder builds fixed global representations, while a parameter-shared decoder iteratively refines its hidden states using joint attention over global and local keys and values.</p></article><article class="paper featured">
+<h3>RecLoop: Recurrent State Modeling for Looped Transformers.</h3><p class="authors"><strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>Under submission</em></p>
+<p class="description">A shared residual GRU accumulates token-aligned memory across loops; gated Dual-QKV Fusion integrates historical memory with the current hidden states.</p></article><article class="paper">
+<h3><a href="https://arxiv.org/abs/2606.05112">Evaluating Large Language Models in Dynamic Clinical Decision-Making with Standardized Patient Cases.</a></h3><p class="authors"><strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>Under submission to npj Digital Medicine</em></p>
+<p class="resources"><a href="https://arxiv.org/abs/2606.05112">Paper</a> <span class="separator">/</span> <a href="https://github.com/MAGIC-AI4Med/MedSP1000">Code</a> <span class="separator">/</span> <a href="https://huggingface.co/datasets/byrLLCC/MedSP1000">Dataset</a></p><p class="description">MedSP1000 evaluates clinical agents in interactive simulations with 1,638 patient cases across 17 specialties and 24,602 scoring criteria.</p></article>
+</section>
+<section aria-labelledby="publications"><div class="section-intro"><h2 id="publications">Publications &amp; Technical Reports</h2></div>
+<article class="paper featured">
+<h3><a href="https://arxiv.org/abs/2608.14290">Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning.</a></h3><p class="authors">K. Chen, …, <strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>Technical report</em></p>
+<p class="resources"><a href="https://arxiv.org/abs/2608.14290">Paper</a> <span class="separator">/</span> <a href="https://github.com/InternLM/Intern-S2-Mobius">Code</a> <span class="separator">/</span> <a href="https://huggingface.co/internlm/Intern-S2-Mobius">Model</a></p><p class="description">Decoupling knowledge and reasoning with a shared global memory and iterative reasoners, achieving nearly 4× end-to-end inference acceleration with the 35B model.</p></article><article class="paper">
+<h3><a href="https://arxiv.org/abs/2602.06184">PhenoLIP: Integrating Phenotype Ontology Knowledge into Medical Vision–Language Pretraining.</a></h3><p class="authors"><strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>ECCV 2026</em></p>
+<p class="resources"><a href="https://arxiv.org/abs/2602.06184">Paper</a> <span class="separator">/</span> <a href="https://github.com/MAGIC-AI4Med/PhenoLIP">Code</a> <span class="separator">/</span> <a href="https://www.modelscope.cn/models/lcsjtu/PhenoLIP">Model</a> <span class="separator">/</span> <a href="https://www.modelscope.cn/datasets/lcsjtu/PhenoBench">Dataset</a> <span class="separator">/</span> <a href="https://magic-ai4med.github.io/phenolip-webpage/">Project</a></p><p class="description">Integrating phenotype ontology knowledge into medical vision–language pretraining through a phenotype knowledge graph and two-stage knowledge distillation.</p></article><article class="paper">
+<h3><a href="https://arxiv.org/abs/2606.07643">AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs.</a></h3><p class="authors">Y. Wang, …, <strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>ICML 2026</em></p>
+<p class="resources"><a href="https://arxiv.org/abs/2606.07643">Paper</a> <span class="separator">/</span> <a href="https://github.com/FudanCVL/AVI-Bench">Code</a> <span class="separator">/</span> <a href="https://huggingface.co/datasets/FudanCVL/AVIBench">Dataset</a> <span class="separator">/</span> <a href="https://fudancvl.github.io/AVI-Bench/">Project</a></p><p class="description">Evaluating audio-visual perception, understanding, and reasoning across 14 tasks and 5,864 samples, including unfamiliar stimuli with low semantic familiarity.</p></article><article class="paper">
+<h3><a href="https://openreview.net/forum?id=rhD7ZuFAjU">Balancing the Experts: Unlocking LoRA-MoE for GRPO via Mechanism-Aware Rewards.</a></h3><p class="authors">C. Ma, …, <strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>ICLR 2026</em></p>
+<p class="resources"><a href="https://openreview.net/forum?id=rhD7ZuFAjU">Paper</a></p><p class="description">Mechanism-aware rewards for reinforcement learning with LoRA mixture-of-experts models.</p></article><article class="paper">
+<h3><a href="https://arxiv.org/abs/2504.20930">Advancing Radiology Foundation Models with Reasoning through Step-by-step Verification from Daily Reports.</a></h3><p class="authors">Z. Fan, <strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>Communications Medicine</em></p>
+<p class="resources"><a href="https://arxiv.org/abs/2504.20930">Paper</a> <span class="separator">/</span> <a href="https://github.com/MAGIC-AI4Med/ChestX-Reasoner">Code</a> <span class="separator">/</span> <a href="https://huggingface.co/byrLLCC/ChestX-Reasoner">Model</a> <span class="separator">/</span> <a href="https://huggingface.co/datasets/byrLLCC/RadRBench-CXR">Dataset</a></p><p class="description">Mining reasoning steps from clinical reports and introducing process rewards into GRPO to improve radiology reasoning with ChestX-Reasoner.</p></article><article class="paper">
+<h3><a href="https://arxiv.org/abs/2505.10593">LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps.</a></h3><p class="authors">S. Zhao, …, <strong>Cheng Liang</strong>, et al.</p><p class="venue"><em>MobiCom 2025</em></p>
+<p class="resources"><a href="https://arxiv.org/abs/2505.10593">Paper</a> <span class="separator">/</span> <a href="https://github.com/MobileLLM/LLM-Explorer">Code</a></p><p class="description">Self-evolving memory compresses interaction trajectories into abstract states and actions for efficient, knowledge-guided mobile app exploration.</p></article>
+</section>
+<footer>Website template adapted from <a href="https://jonbarron.info/">Jon Barron</a> · <a href="https://github.com/jonbarron/jonbarron.github.io">Source template</a><br><a href="#top">Back to top ↑</a></footer>
+</main></body></html>
