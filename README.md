@@ -34,3 +34,5 @@ Additional figures from the CV project's `ref/` directory:
 - Balancing the Experts: `moe-balance-iclr26.jpg`
 - LLM-Explorer: `arXiv-2505.10593v1/figure/overview.png`
 - AVI-Bench: `arXiv-2606.07643v1/media/avi_pipe.png`
+
+- MedSP1000: official repository `MAGIC-AI4Med/MedSP1000`, `assets/framework.png`.
