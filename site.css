@@ -35,11 +35,12 @@ footer a { font-size: 12px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-.paper.with-figure { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 24px; align-items: center; }
-.paper-figure { display: block; }
-.paper-figure img { display: block; width: 100%; height: auto; }
+/* Keep paper previews in a compact left column, matching the reference template. */
+.paper.with-figure { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 20px; align-items: center; }
+.paper-figure { display: block; width: 160px; max-width: 100%; }
+.paper-figure img { display: block; width: 160px; max-width: 100%; height: auto; object-fit: contain; }
 .paper-content { min-width: 0; }
 @media (max-width: 600px) {
- .paper.with-figure { grid-template-columns: 1fr; gap: 16px; }
- .paper-figure { width: 100%; max-width: 360px; margin: 0 auto; }
+ .paper.with-figure { grid-template-columns: 100px minmax(0, 1fr); gap: 14px; padding-left: 0; padding-right: 0; }
+ .paper-figure { width: 100px; }
 }
