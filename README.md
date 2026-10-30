@@ -27,3 +27,10 @@ Figures are exported from the corresponding paper projects at 1600px resolution.
 - RecLoop: `figures/architecture/architecture_v4.pdf`
 - ChestX-Reasoner: `figures/method.pdf`
 - PhenoLIP: `858/Latex_Source_File/figs/pipeline.pdf`
+
+Additional figures from the CV project's `ref/` directory:
+
+- Intern-S2-Mobius: `arXiv-2608.14290v1/assets/architecture.pdf`
+- Balancing the Experts: `moe-balance-iclr26.jpg`
+- LLM-Explorer: `arXiv-2505.10593v1/figure/overview.png`
+- AVI-Bench: `arXiv-2606.07643v1/media/avi_pipe.png`
