@@ -34,3 +34,12 @@ footer a { font-size: 12px; }
  footer { text-align: center; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.paper.with-figure { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 24px; align-items: center; }
+.paper-figure { display: block; }
+.paper-figure img { display: block; width: 100%; height: auto; }
+.paper-content { min-width: 0; }
+@media (max-width: 600px) {
+ .paper.with-figure { grid-template-columns: 1fr; gap: 16px; }
+ .paper-figure { width: 100%; max-width: 360px; margin: 0 auto; }
+}

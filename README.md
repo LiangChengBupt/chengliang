@@ -17,3 +17,13 @@ Run `python3 -m http.server 8000` in this directory, then open http://localhost:
 GitHub Pages serves `main` from the repository root. Pushing to `main` automatically publishes updates at https://liangchengbupt.github.io/chengliang/.
 
 Publication statuses, abbreviated author lists, and descriptions follow the supplied CV. Unreleased work has no placeholder resource links. Update this page when full author lists or public resources become available.
+
+## Method figures
+
+Figures are exported from the corresponding paper projects at 1600px resolution. Clicking a thumbnail opens the complete figure.
+
+- AsymLoop: `Figure/asymloop-architecture-v2.pdf`
+- UpLoop: `build/figures/fig3-method.pdf`
+- RecLoop: `figures/architecture/architecture_v4.pdf`
+- ChestX-Reasoner: `figures/method.pdf`
+- PhenoLIP: `858/Latex_Source_File/figs/pipeline.pdf`
