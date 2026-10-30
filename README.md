@@ -35,3 +35,7 @@ Additional figures from the CV project's `ref/` directory:
 - AVI-Bench: `arXiv-2606.07643v1/media/avi_pipe.png`
 
 - MedSP1000: official repository `MAGIC-AI4Med/MedSP1000`, `assets/framework.png`.
+
+## Visitor statistics
+
+The page footer embeds the owner's MapMyVisitors widget at 300px width. Statistics: https://mapmyvisitors.com/web/1c978. The widget uses IP-based approximate geolocation; the footer links to the provider's privacy policy.
