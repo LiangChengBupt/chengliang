@@ -2,7 +2,7 @@
 
 A static academic homepage adapted from [Jon Barron’s website](https://github.com/jonbarron/jonbarron.github.io).
 
-- `index.html`: biography, research interests, ongoing work, publications, and resource links.
+- `index.html`: biography, research interests, and papers grouped into Looped Language Model Pretraining & Foundation Models and AI for Science, with resource links.
 - `stylesheet.css`: original template typography and link styling.
 - `site.css`: page layout and responsive styles.
 - `assets/portrait.jpg`: profile photo.
