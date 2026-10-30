@@ -5,7 +5,7 @@ A static academic homepage adapted from [Jon Barron’s website](https://github.
 - `index.html`: biography, research interests, ongoing work, publications, and resource links.
 - `stylesheet.css`: original template typography and link styling.
 - `site.css`: page layout and responsive styles.
-- `assets/portrait.png`: profile photo.
+- `assets/portrait.jpg`: profile photo.
 - `data/Cheng_Liang_CV.pdf`: Chinese CV.
 
 ## Preview
